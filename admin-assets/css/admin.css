@@ -1,0 +1,7 @@
+/* Styles to be used in the WordPress wp-admin screens */
+
+.wp-block-oppidan-logo-gallery {
+  border: 2px dotted green;  
+  padding: 2rem;
+  background: green;
+}
