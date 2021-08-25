@@ -12,7 +12,7 @@
     edit: function(props) {
       return el(
           'div', {
-            className: props.className + ' lowtide',
+            className: props.className + ' logo-gallery',
           },
           el(InnerBlocks, {
             renderAppender: () => el(InnerBlocks.ButtonBlockAppender),

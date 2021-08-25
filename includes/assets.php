@@ -3,6 +3,7 @@
 // Enqueue frontend stylesheets
 function oppidan_enqueue_assets() {
   $stylesheets = array(
+    'gallery',
   );
 
   foreach( $stylesheets as $style ) {

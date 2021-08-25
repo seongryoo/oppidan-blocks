@@ -1,7 +1,21 @@
 /* Styles to be used in the WordPress wp-admin screens */
 
 .wp-block-oppidan-logo-gallery {
-  border: 2px dotted green;  
+  border: 2px dotted #5ac2ff;  
   padding: 2rem;
-  background: green;
+  background: #c1e8ff71;
+}
+
+.wp-block-oppidan-logo-gallery .block-editor-block-list__layout {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wp-block-oppidan-logo-gallery figure {
+  flex: 50%;
+}
+.wp-block-oppidan-logo-gallery img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
 }

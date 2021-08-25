@@ -1,0 +1,16 @@
+.logo-gallery-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem 0;
+}
+.logo-gallery figure {
+  flex: 1 0 auto;
+  max-width: 200px;
+  margin-right: 2rem;
+}
+.logo-gallery figure img {
+  width: 100%;
+  height: auto;
+}
