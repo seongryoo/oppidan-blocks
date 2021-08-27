@@ -14,3 +14,14 @@
   width: 100%;
   height: auto;
 }
+.logo-gallery a img {
+  opacity: 0.5;
+  filter: grayscale(1);
+  transition: filter 0.25s, opacity 0.25s;
+}
+
+.logo-gallery a:hover img,
+.logo-gallery a:focus img {
+  opacity: 1;
+  filter: grayscale(0);
+}
