@@ -3,3 +3,13 @@ img[alt*="empty alt"] {
   outline: 2px solid red;
   opacity: 0.4;
 }
+.spacer {
+  background: #c1e8ff7e;
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.spacer-line {
+  border-top: 2px dashed black;
+}

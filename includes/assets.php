@@ -4,6 +4,7 @@
 function oppidan_enqueue_assets() {
   $stylesheets = array(
     'gallery',
+    'spacer',
   );
 
   foreach( $stylesheets as $style ) {
@@ -43,6 +44,7 @@ function oppidan_enqueue_block_assets() {
   // Block js files
   $scripts = array(
     'logo-gallery',
+    'spacer',
   );
   $deps = array(
     'wp-blocks',

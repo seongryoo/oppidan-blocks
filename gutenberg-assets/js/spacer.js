@@ -4,28 +4,26 @@
   const InnerBlocks = wp.blockEditor.InnerBlocks;
   const registerBlock = wp.blocks.registerBlockType;
   const groupArgs = {
-    title: 'Logo Gallery',
-    category: 'media',
-    icon: 'format-gallery',
+    title: 'Spacer',
+    category: 'design',
+    icon: 'editor-insertmore',
 
     edit: function(props) {
       return el(
-          'div', {
-            className: props.className + ' logo-gallery',
+          'div', 
+          {
+            className: props.className + ' spacer',
           },
-          el(InnerBlocks, {
-            renderAppender: () => el(InnerBlocks.ButtonBlockAppender),
-            allowedBlocks: ['core/image'],
-          })
+          el ('div', {className: 'spacer-line'})
       );
     },
 
     save: function(props) {
-      return el(InnerBlocks.Content);
+      return;
     },
     /* end of save() */
 
   }; /* end of containerArgs obj*/
 
-  registerBlock('oppidan/logo-gallery', groupArgs);
+  registerBlock('oppidan/spacer', groupArgs);
 })(window.wp);
